@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ------------------------------BOOT-S------------------------------------- */
+h1, h2, h3{
+    font-family: 'Bai Jamjuree', sans-serif !important;
+}
+
+.text{
+    text-align: center;
+}
+
+.p-line{
+    line-height: 30px;
+    margin: 20px;
+}
+
+.btn{
+    color: white;
+    border-radius: 50px;
+    padding: 12px;
+    margin:15px 10px 40px 0 ; 
+}
+
+.h-line{
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.clear{
+    clear: both;
+}
+
+.margin-top{
+    margin-top: 40px !important;
+}
+/* ------------------------------------------------------------------------ */
+
+.header-logo{
+    height: 180px;
+    padding-top: 100px;
+    background-image: url(/images/bg-header-desktop.png);
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-green{
+    background-color: green;
+}
+
+.btn-perble{
+    background-color: blueviolet;
+}
+/* --------------------SEC-2----------------- */
+
+/* --------------------SEC-3----------------- */
+.sec2-img{
+    float: left;
+}
+
+.contant{
+    width: 40%;
+    float: right;
+    margin-top: 90px;
+}
+/* --------------------SEC-4----------------- */
+
+.container{
+    margin: 90px;
+}
+
+.img-container img{
+    width: 750px;
+    margin-top: 40px;
+}
+/* --------------------SEC-5----------------- */
+
+.main-sec3 p{
+    margin: 10px;
+}
+
+.row ,.footer{
+    margin-top: 40px !important;
+    max-width: 1200px ;
+    margin: auto;
+}
+
+.item{
+    float: left;
+    width: 30%;
+    padding: 20px ;
+}
+
+.item img{
+    margin-bottom: 35px;
+}
+
+.item2{
+    float: left;
+    width: 7%;
+    margin-left: 160px;
+}
+.item2 img{
+    margin: 100px 0 !important;
+}
+/* --------------------SEC-6----------------- */
+/* .title-h2 ,.footer{
+    margin-top: 40px !important;
+} */
+
+/* --------------------SEC-2-FOOTER----------------- */
+
+.foooter{
+    height: 150px;
+    background-color: rgba(128, 128, 128, 0.237) ;
+}
+
+.img-footer img{
+    float: left;
+    width: 75px;
+    margin:35px 0;
+}
+
+.footer-logo {
+    float: right;
+}
+
+.footer-logo img{
+    width: 25px;
+    padding: 9px;
+    margin-top: 50px !important;
+}
+
+table{
+    display: inline-block;
+    margin:20px 0 0 170px ;
+}
+
+table a{
+    text-decoration: none;
+    color: grey;
+}
+
+.rows{
+    margin-left: 100px !important   ;
+    padding: 15px 110px 20px 0;
+}
