@@ -1,112 +1,122 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* ------------------------------BOOT-S------------------------------------- */
-h1, h2, h3{
+h1,
+h2,
+h3 {
     font-family: 'Bai Jamjuree', sans-serif !important;
 }
 
-.text{
+.text {
     text-align: center;
 }
 
-.p-line{
+.p-line {
     line-height: 30px;
     margin: 20px;
 }
 
-.btn{
+.btn {
     color: white;
     border-radius: 50px;
     padding: 12px;
-    margin:15px 10px 40px 0 ; 
+    margin: 15px 10px 40px 0;
 }
 
-.h-line{
+.h-line {
     margin-top: 10px;
     line-height: 25px;
 }
 
-.clear{
+.clear {
     clear: both;
 }
 
-.margin-top{
+.margin-top {
     margin-top: 40px !important;
 }
+
 /* ------------------------------------------------------------------------ */
 
-.header-logo{
+.header-logo {
     height: 180px;
     padding-top: 100px;
     background-image: url(/images/bg-header-desktop.png);
     background-size: cover;
 }
 
-h1{
+h1 {
     font-family: 'Inter', sans-serif;
 }
 
-.btn-green{
+.btn-green {
     background-color: green;
 }
 
-.btn-perble{
+.btn-perble {
     background-color: blueviolet;
 }
+
 /* --------------------SEC-2----------------- */
 
 /* --------------------SEC-3----------------- */
-.sec2-img{
+.sec2-img {
     float: left;
 }
 
-.contant{
+.contant {
     width: 40%;
     float: right;
     margin-top: 90px;
 }
+
 /* --------------------SEC-4----------------- */
 
-.container{
+.container {
     margin: 90px;
 }
 
-.img-container img{
+.img-container img {
     width: 750px;
     margin-top: 40px;
 }
+
 /* --------------------SEC-5----------------- */
 
-.main-sec3 p{
+.main-sec3 p {
     margin: 10px;
 }
 
-.row ,.footer{
+.row,
+.footer {
     margin-top: 40px !important;
-    max-width: 1200px ;
+    max-width: 1200px;
     margin: auto;
 }
 
-.item{
+.item {
     float: left;
     width: 30%;
-    padding: 20px ;
+    padding: 20px;
 }
 
-.item img{
+.item img {
     margin-bottom: 35px;
 }
 
-.item2{
+.item2 {
     float: left;
     width: 7%;
     margin-left: 160px;
 }
-.item2 img{
+
+.item2 img {
     margin: 100px 0 !important;
 }
+
 /* --------------------SEC-6----------------- */
 /* .title-h2 ,.footer{
     margin-top: 40px !important;
@@ -114,38 +124,177 @@ h1{
 
 /* --------------------SEC-2-FOOTER----------------- */
 
-.foooter{
+.foooter {
     height: 150px;
-    background-color: rgba(128, 128, 128, 0.237) ;
+    background-color: rgba(128, 128, 128, 0.237);
 }
 
-.img-footer img{
+.img-footer img {
     float: left;
     width: 75px;
-    margin:35px 0;
+    margin: 35px 0;
 }
 
 .footer-logo {
     float: right;
 }
 
-.footer-logo img{
+.footer-logo img {
     width: 25px;
     padding: 9px;
     margin-top: 50px !important;
 }
 
-table{
+table {
     display: inline-block;
-    margin:20px 0 0 170px ;
+    margin: 20px 0 0 170px;
 }
 
-table a{
+table a {
     text-decoration: none;
     color: grey;
 }
 
-.rows{
-    margin-left: 100px !important   ;
+.rows {
+    margin-left: 100px !important;
     padding: 15px 110px 20px 0;
+}
+
+
+/*  Responsive  */
+
+@media (max-width: 768px) {
+
+    .header-logo {
+        height: auto;
+        padding-top: 60px;
+        text-align: center;
+        background-size: cover;
+    }
+
+    /* SEC 3 */
+    .sec2-img {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec2-img img {
+        width: 90%;
+    }
+
+    .contant {
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    /* SEC 4 */
+    .container {
+        margin: 20px;
+    }
+
+    .img-container img {
+        width: 100%;
+    }
+
+    /* SEC 5 (cards) */
+    .item {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .row {
+        text-align: center;
+    }
+
+    .item2 {
+        float: none;
+        display: inline-block;
+        width: 40%;
+        margin: 10px;
+    }
+
+    .item2 img {
+        width: 100%;
+        max-width: 120px;
+        margin: 20px auto !important;
+        display: block;
+    }
+
+    /* FOOTER */
+    .foooter {
+        height: auto;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .img-footer img {
+        float: none;
+        display: block;
+        margin: 20px auto;
+    }
+
+    table {
+        display: block;
+        text-align: center;
+    }
+
+    table a {
+        display: block !important;
+        margin: 10px 0;
+    }
+
+    .rows {
+        margin: 0 !important;
+        padding: 8px;
+    }
+
+    .footer-logo {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .footer-logo img {
+        margin: 5px;
+    }
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .contant {
+        width: 50%;
+    }
+
+    .item {
+        width: 45%;
+    }
+
+    .item2 {
+        float: none;
+        display: inline-block;
+        width: 20%;
+        margin: 20px;
+    }
+
+    .item2 img {
+        width: 100%;
+        max-width: 100px;
+        display: block;
+        margin: auto !important;
+    }
+
+    .img-container img {
+        width: 100%;
+    }
+
+    .container {
+        margin: 40px;
+    }
 }
